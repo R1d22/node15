@@ -17,7 +17,7 @@ const run = (httpServer) => {
             const mes = cb({ message });
             
 
-            socket.emit('/res', {sendMes: mes})
+            // socket.emit('/res', {sendMes: mes})
        
             
         });

@@ -16,9 +16,9 @@ formEl.addEventListener('submit', (ev) => {
         // console.log(data.message);
         const res = data.message;
         console.log(res);
-        socket.on('/res', (info, cb) => {
-            console.log('asd:', info.sendMes)
-        });
+        // socket.on('/res', (info, cb) => {
+        //     console.log('asd:', info.sendMes)
+        // });
         // containerEl.innerHTML += res;
         // return res
         // html += res;
