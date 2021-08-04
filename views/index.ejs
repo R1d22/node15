@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <h1>Chat</h1>
+    
+
+    <form class="name">
+      <input type="text" name="userName" placeholder="Введите имя">
+      <textarea name="mes" placeholder="Введите сообщение"></textarea>
+      <button type="submit" class="id_submit">++</button>
+    </form>
+
+    <div class="all__mess">
+
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
